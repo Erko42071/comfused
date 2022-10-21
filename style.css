@@ -1,0 +1,69 @@
+h1{
+    color:white;
+    background-color:rgb(29, 38, 48);
+    font-size: 50px;
+    }
+h2{
+    color:azure;
+    background-color: rgb(29, 38, 48);
+    font-size: 30px;
+    text-align: center;
+    
+}
+img{
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}    
+h4{
+    border-style:hidden;
+    text-align: right;
+
+
+}
+
+
+p{
+    border-style:double
+}
+
+
+
+
+
+.Box{
+    border: 5px solid #58400c; 
+    display: flow-root;
+
+}
+
+
+.grid-container{
+    color:azure;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    text-align: center;
+    background-color: rgb(29, 38, 48);
+    padding: 7px;   
+    margin-top:150;
+    display:block;
+    grid-column-start: 27;
+    grid-column-end: 08;
+    justify-content: center;
+}
+.grid.item{
+    background-color: beige;
+    border: 1px solid white; 
+    padding: 20px 0;
+    font-size: 15px;
+    text-align: center;
+    
+  
+}
+
+address{
+    background-color: black;
+}
